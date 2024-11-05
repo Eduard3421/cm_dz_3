@@ -1,0 +1,25 @@
+(comment
+this is
+a comment
+)
+
+{
+name = @"ivan"
+age = 30
+city = {
+    region = @"moscow"
+    country = @"russia"
+  }
+}
+
+name: ivan;
+age: 30;
+
+.[age].
+.[name].
+
+{
+name = @"petr"
+age = 25
+city = @"saransk"
+}
